@@ -1,2 +1,2 @@
 # ABC-quickone
-Answers to a few questions asked for ABC
+Answers to a few questions asked for ABC test.
