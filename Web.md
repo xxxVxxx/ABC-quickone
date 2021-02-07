@@ -1,4 +1,5 @@
 Q: How would you make an HTTP “GET” request with the HTTP “Pragma” request header set to “nocache”?
+
 Answer:
 ```curl -X GET -I -H "Pragma:no-cache" https://example.com/index.php```
 
