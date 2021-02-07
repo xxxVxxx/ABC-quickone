@@ -1,9 +1,12 @@
 #!/usr/bin/env python
+#This python code assumes that it is being run on python3 interpreter.
+#It might break on python2.x
 
 import sys
 
 def divisible_by_3(number):
-    if not isinstance(number, (int):
+    #Proper check to make sure input is integer/float when called directly.
+    if not isinstance(number, (int, float)):
         raise TypeError('need an integer')
     if (abs(number)%3 == 0):
         return str("aunty")
